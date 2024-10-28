@@ -1,8 +1,8 @@
-from main import app
+from main import app, render_template
 
 
 
 #? rotas
 @app.route("/")
 def homepage():
-    return "meu site no Flask"
+    return render_template("index.html")
