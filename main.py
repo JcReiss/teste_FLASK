@@ -3,7 +3,7 @@ from flask import blueprints
 
 app =  Flask(__name__)
 
-from routes.views import *
+from routes.routes import *
 
 
 if __name__ == "__main__":
