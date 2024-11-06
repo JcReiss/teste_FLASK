@@ -11,4 +11,4 @@ def homepage():
 #? rota "sobre"
 @app.route("/sobre")
 def rota_sobre():
-    return "conheça nosso site"
+    return render_template("sobre.html")
